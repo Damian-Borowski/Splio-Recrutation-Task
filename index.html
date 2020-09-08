@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Splio e-mail template by Damian</title>
+    <meta name="description" content="splio e-mail template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0 auto;
+            padding: 0;
+            color: #28406c;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: 100;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 100;
+        }
+
+        h4 {
+            font-size: 10px;
+            font-weight: 200;
+        }
+
+        p {
+            font-size: 8px;
+        }
+
+        .info {
+            float: right;
+        }
+
+        .info a {
+            color: #28406c;
+        }
+
+        .social {
+            background-color: #c3edfc;
+        }
+
+        .social-icons {
+            float: right;
+            padding: 10px;
+        }
+
+        button a {
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .subscribe a {
+            color: #ff897a;
+        }
+
+        .footer-content {
+            width: 100%;
+            color: #ff897a;
+        }
+
+
+
+
+        @media (min-width: 700px) {
+            .email {
+                width: 700px;
+                background-color: white;
+                border-spacing: 0;
+
+            }
+
+            .main-banner img {
+                width: 100%;
+            }
+
+            .main-banner-content {
+                text-align: center;
+                padding: 5px;
+            }
+
+            .banner-info {
+                padding: 0 5px 0 5px;
+            }
+
+            .banner-2 {
+                display: none;
+            }
+
+            .cards {
+                margin-top: 20px;
+                width: 700px;
+                background-color: #f5f0e8;
+                padding: 5px;
+                text-align: center
+            }
+
+            .box {
+                position: relative;
+                display: inline-block;
+                width: 210px;
+                height: 320px;
+                background-color: white;
+                text-align: center;
+                margin: 4px;
+                padding: 4px;
+            }
+
+            button {
+                position: absolute;
+                bottom: 5px;
+                width: 100px;
+                height: 25px;
+                background-color: #00c39e;
+                transform: translate(-50%, -50%);
+                border-radius: 20px;
+                border: none !important;
+                color: white;
+            }
+
+            .copyright {
+                text-align: center;
+            }
+
+            .copyright h3 {
+                width: 700px;
+                background-color: #c3edfc;
+                padding: 5px 0 5px 0;
+            }
+
+            .footer-content {
+                width: 700px;
+                color: #ff897a;
+            }
+
+            .subscribe {
+                width: 700px;
+                color: #ff897a;
+            }
+        }
+
+        @media (max-width: 700px) {
+
+            .email {
+                width: 100%;
+                background-color: white;
+                border-spacing: 0;
+
+            }
+
+            .main-banner img {
+                width: 100%;
+            }
+
+            .main-banner-content {
+                text-align: center;
+                padding: 5px;
+            }
+
+            .banner-info {
+                padding: 0 5 0 5px;
+            }
+
+            .banner-1 {
+                display: none;
+            }
+
+            .cards {
+                margin-top: 20px;
+                width: 100%;
+                background-color: #f5f0e8;
+                padding: 5px;
+                text-align: center
+            }
+
+            .box {
+                position: relative;
+                display: inline-block;
+                width: 180px;
+                height: 360px;
+                background-color: white;
+                text-align: center;
+                margin: 4px;
+                padding: 4px;
+            }
+
+            button {
+                position: absolute;
+                bottom: 5px;
+                width: 100px;
+                height: 25px;
+                background-color: #00c39e;
+                transform: translate(-50%, -50%);
+                border-radius: 20px;
+                border: none !important;
+                color: white;
+            }
+
+            .copyright h3 {
+                width: 100%;
+                background-color: #c3edfc;
+                padding: 5px 0 5px 0;
+            }
+
+            .subscribe {
+                width: 100%;
+                color: #ff897a;
+                text-align: center;
+            }
+
+            .footer {
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .main-banner-img {
+                background-color: green;
+            }
+
+            .box {
+                position: relative;
+                display: inline-block;
+                width: 320px;
+                height: 360px;
+                background-color: white;
+                text-align: center;
+                margin: 4px;
+                padding: 4px;
+            }
+
+            .copyright h3 {
+                width: 100%;
+                background-color: #c3edfc;
+                padding: 5px 0 5px 0;
+            }
+
+            .subscribe {
+                width: 100%;
+                color: #ff897a;
+                text-align: center;
+            }
+
+            .footer {
+                text-align: center;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <table class="email">
+        <thead>
+            <tr>
+                <td rowspan="2"><a href="https://www.splio.com"><img src="img/logo.png" alt="logo"></a></td>
+                <td></td>
+                <td>
+                    <p class="info">Online. Offline. Aligned. Welcome to Splio.</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <p class="info">If you are unable to view this message correctly, you can <a href="">read it
+                            online.</a></p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="social">
+                <td colspan="2">
+                    <h4>FIND OUT ABOUT SPLIO FEATURES.</h4>
+                </td>
+                <td class="social-icons">
+                    <a href="https://pl-pl.facebook.com/pl.splio/"><img src="img/facebook.png" alt="facebook"></a>
+                    <a href="https://twitter.com/splio"><img src="img/twitter.png" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/company/800821/"><img src="img/likedin.png" alt="likedin"></a>
+                </td>
+            </tr>
+            <tr class="main-banner">
+                <td colspan="3" class="banner-1"><img src="img/main-banner.png" alt="banner"></td>
+                <td colspan="3" class="banner-2"><img src="img/banner-2.jpg" alt="banner"></td>
+            </tr>
+            <tr class="main-banner-content">
+                <td class="banner-info" colspan="2">
+                    <h1>Offline.</h1>
+                    <h3>Know your customers wherever they are.
+                        Target them with loyalty offers
+                        that drive revenue.</h3>
+                </td>
+                <td class="banner-info" colspan="2">
+                    <h1>Online.</h1>
+                    <h3>Reach customers online.
+                        Drive additional revenue targeted offers
+                        to nudge customer behavior.</h3>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="cards">
+        <tr>
+            <td class="box">
+                <img src="img/icon-box-1.png" alt="Report icon">
+                <h1>Report</h1>
+                <h2>ADVANCED DASHBORDS</h2>
+                <h3>Analyze customer information
+                    to better know them and
+                    measure marketing strategies
+                    in real-time thanks to a large
+                    number of pre-calculated KPI</h3>
+                <button><a href="https://www.splio.com/pl/splio-pl/" alt="Splio website">Check</a></button>
+            </td>
+            <td class="box">
+                <img src="img/icon-box-2.png" alt="Data icon">
+                <h1>Data</h1>
+                <h2>DATA CENTRALIZATION</h2>
+                <h3>Store all the information about
+                    each customer during all the
+                    relationship in one place.</h3>
+                <button><a href="https://www.splio.com/pl/splio-pl/" alt="Splio website">Check</a></button>
+            </td>
+            <td class="box">
+                <img src="img/icon-box-3.png" alt="Target icon">
+                <h1>Target</h1>
+                <h2>ULTRA-PRECISE TARGETING</h2>
+                <h3>Segment customers the intuitive way by addressing all business challenges related to targeting.
+                </h3>
+                <button><a href="https://www.splio.com/pl/splio-pl/" alt="Splio website">Check</a></button>
+            </td>
+        </tr>
+    </table>
+    <table class="footer">
+        <tr>
+            <td class="copyright">
+                <h3>Copyright 2018 SPLIO</h3>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="subscribe">
+                <p>If you whish to stop reciving these emails, <a href="$unsubUrl$" alt="subscribe">click here to
+                        unsubscribe.</a></p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
